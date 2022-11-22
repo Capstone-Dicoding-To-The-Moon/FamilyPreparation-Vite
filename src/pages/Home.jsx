@@ -1,5 +1,5 @@
 import { Container } from 'react-bootstrap';
-import CardListComponent from '../components/CardListComponent';
+import CardArtikelkComponent from '../components/CardArtikelkComponent';
 import CarouselComponent from '../components/CarouselComponent';
 
 const Home = () => {
@@ -7,7 +7,7 @@ const Home = () => {
     <div style={{ backgroundColor: 'grey', minHeight: '100vh' }}>
       <Container className="py-5">
         <CarouselComponent />
-        <CardListComponent />
+        <CardArtikelkComponent />
       </Container>
     </div>
   );
