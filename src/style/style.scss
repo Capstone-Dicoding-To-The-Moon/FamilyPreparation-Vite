@@ -5,9 +5,8 @@
 }
 
 body {
-  background-color: rgb(197, 197, 197);
+  background-color: white;
 }
-
 .carousel {
   max-width: 1200px;
   margin: 0 auto;
@@ -52,34 +51,156 @@ body {
 .d-block {
   width: 100%;
 }
-.card-btn {
+.card-btn{
   cursor: pointer;
+  text-decoration: none;
   font-size: 15px;
-  width: 120px;
   box-sizing: border-box;
-  color: slateblue;
-  background: #ffffff;
-  border: 1px solid slateblue;
+  padding: 5px 15px 5px 15px;
+  color: #f76c2f;
+  background: #FFFFFF;
+  border: 1px solid #f76c2f;
   box-shadow: 0px 4px 10px rgba(98, 142, 144, 0.2);
 }
 .card-btn:hover {
   color: white;
-  background-color: slateblue;
+  background-color: #f76c2f;
 }
 .carousel-indicators [data-bs-target] {
   width: 5px;
   height: 10px;
   margin-top: 190px;
 }
-
+.hero-image {
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.images {
+  width: 100%;
+}
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.images-card {
+  height: 400px;
+}
+.mainContent, .mainHeader {
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+}
+.content {
+  width: 100%;
+  padding: 10px;
+}
+.contentHeader {
+  width: 100%;
+}
+.search {
+  width: 400px;
+}
+.aside {
+  width: 300px;
+  padding: 10px;
+}
+.title {
+  font-size: 18px;
+  text-align: center; 
+}
+.underline {
+  height: 4px;
+  width:100%;
+  background-color: #f76c2f;
+  margin-top: 10px;
+}
+.section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.main-heading {
+  color: #A34A23;
+  font-size: 26px;
+  text-align: left;
+}
 .buttonNav {
   color: green;
   border: 1px solid green;
 }
-
+.form-control {
+  border-color: #f76c2f !important;
+  box-shadow: none !important;
+}
+.btn-color {
+  background-color: #f76c2f;
+  border-color: #f76c2f;
+  margin-right: 0px;
+}
+.btn-color:hover {
+  background-color: #f37e4c;
+  border-color: #f37e4c;
+}
+.icon {
+  font-size: 25px;
+}
+.pagination {
+  --bs-pagination-color: #f37e4c !important;
+}
+.pagination:hover {
+  --bs-pagination-color: #f37e4c !important;
+}
+.page-link {
+  box-shadow: none !important;
+  border-color: #e2cec3;
+}
+.page-link:hover {
+  background-color: #f37e4c ;
+  border: #f76c2f;
+  color: white;
+}
+.active>.page-link, .page-link.active {
+  background-color: #f37e4c ;
+  border-color: #e2cec3;
+}
+.nav-link, .nav-link:hover {
+  color: black;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  background-color: #f37e4c;
+}
 footer {
   background-color: rgb(108, 51, 51);
   position: relative;
   bottom: 0;
   width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .mainContent, .mainHeader { 
+    flex-direction: column;
+  }
+  .content{
+    width: 100%;
+  }
+  .aside {
+    width: 100%;
+  }
+  .contentHeader {
+    width: 100%;
+  }
+  .search {
+    width: 100%;
+  }
+  .images-card {
+    height: 100%;
+  }
+  .pagination {
+    width: 100%;
+  }
 }
