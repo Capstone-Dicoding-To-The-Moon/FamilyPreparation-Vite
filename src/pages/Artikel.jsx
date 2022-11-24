@@ -1,4 +1,5 @@
 import React from "react";
+import { Container } from 'react-bootstrap';
 import Search from '../components/Search';
 import CardArtikel from '../components/CardArtikelkComponent';
 import HeroElement  from "../components/HeroElement";
@@ -6,8 +7,9 @@ import KategoriArtikel from "../components/KategoriArtikel"
 
 export default function Artikel () {
     return (
-        <div className="container">
-            <HeroElement />
+      <div  style={{ minHeight: '100vh' }}>
+        <Container className="py-5">
+        <HeroElement />
             <section className="section">
                 <div className="container">
                     <div className="row">
@@ -34,6 +36,7 @@ export default function Artikel () {
                     </div>
                 </div>
             </section> 
-        </div> 
+        </Container>
+      </div>
     );
 }
