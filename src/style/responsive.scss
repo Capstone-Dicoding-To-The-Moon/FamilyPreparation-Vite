@@ -1,0 +1,41 @@
+// Extra Small 	( <576px )
+
+@media only screen and (width < 577px) {
+  .bg-costum {
+    display: none;
+  }
+}
+
+// Small ( >576 px)
+
+@media only screen and (width > 576px) {
+  .bg-costum {
+    font-size: 12px;
+  }
+}
+
+// Medium ( >768 px)
+
+@media only screen and (width > 768px) {
+  .bg-costum {
+    font-size: 18px;
+  }
+}
+
+// Large ( >992 px)
+
+@media only screen and (width > 992px) {
+
+}
+
+// Extra Large ( >1200 px)
+
+@media only screen and (width > 1201px) {
+
+}
+
+//Extrea Extra Large ( >1400 px)
+
+@media only screen and (width > 1401px) {
+
+}
