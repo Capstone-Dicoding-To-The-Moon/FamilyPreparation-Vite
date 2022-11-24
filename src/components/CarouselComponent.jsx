@@ -7,7 +7,7 @@ import Hero3 from '../assets/Hero-img3.png';
 
 const CarouselComponent = () => {
   return (
-    <div className="Container pb-4">
+    <div className="Container">
       <Carousel>
         <Carousel.Item>
           <img className="d-block" src={Hero1} alt="Second slide" />

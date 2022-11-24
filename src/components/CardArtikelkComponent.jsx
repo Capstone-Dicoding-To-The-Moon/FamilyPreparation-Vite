@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row';
 import React from 'react';
 import artikel from '../assets/artikel.jpg';
 
-const CardListComponent = () => {
+const CardArtikelComponent = () => {
   return (
     <div className="container">
       <Row xs={1} md={4} className="g-4">
@@ -26,4 +26,4 @@ const CardListComponent = () => {
   );
 };
 
-export default CardListComponent;
+export default CardArtikelComponent;
