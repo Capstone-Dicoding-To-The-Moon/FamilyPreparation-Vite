@@ -26,6 +26,9 @@ const NavbarComponent = () => {
               <Link className="nav-link" to="/forumDiskusi">
                 Forum Diskusi
               </Link>
+              <Link className="nav-link" to="/profile">
+                Profile
+              </Link>
               <Button variant="light" className="ms-3 buttonNav">
                 Masuk
               </Button>
