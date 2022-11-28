@@ -2,6 +2,10 @@ import React from "react";
 import Card from 'react-bootstrap/Card';
 import Table from 'react-bootstrap/Table';
 import Button from 'react-bootstrap/Button';
+<<<<<<< Updated upstream
+=======
+import { Link } from "react-router-dom";
+>>>>>>> Stashed changes
 
 export default function ForumDiskusi () {
     return (
@@ -34,19 +38,43 @@ export default function ForumDiskusi () {
                                         </thead>
                                           <tbody>
                                             <tr>
+<<<<<<< Updated upstream
                                               <td>Pregnancy</td>
+=======
+                                              <td>
+                                                <Link className="nav-link" to="/forumDetail">
+                                                    Pregnancy
+                                                </Link>
+                                              </td>
+>>>>>>> Stashed changes
                                               <td>384</td>
                                               <td>11846</td>
                                               <td>2022-07-01 00:23:57 by antonio456</td>
                                             </tr>
                                             <tr>
+<<<<<<< Updated upstream
                                               <td>Baby</td>
+=======
+                                              <td>
+                                                <Link className="nav-link" to="/forumDetail">
+                                                    Baby
+                                                </Link>
+                                              </td>
+>>>>>>> Stashed changes
                                               <td>384</td>
                                               <td>11846</td>
                                               <td>2022-07-01 00:23:57 by antonio456</td>
                                             </tr>
                                             <tr>
+<<<<<<< Updated upstream
                                               <td>Child</td>
+=======
+                                              <td>
+                                                <Link className="nav-link" to="/forumDetail">
+                                                    Child
+                                                </Link>
+                                              </td>
+>>>>>>> Stashed changes
                                               <td>384</td>
                                               <td>11846</td>
                                               <td>2022-07-01 00:23:57 by antonio456</td>

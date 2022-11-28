@@ -19,7 +19,11 @@ function App() {
         <Route path='/about' element={<About />}/>
         <Route path="/forumDiskusi" element={<ForumDiskusi />} />
         <Route path='/profile' element={<Profile />}/>
+<<<<<<< Updated upstream
         <Route path='/postingan' element={<Postingan />}/>
+=======
+        <Route path="/postingan" element={<Postingan />} />
+>>>>>>> Stashed changes
         <Route path="*" element={<h1>404 Not Found</h1>} />
       </Routes>
       <FooterComponent />
