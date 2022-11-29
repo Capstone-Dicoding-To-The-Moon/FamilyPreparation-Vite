@@ -117,7 +117,7 @@ body {
 .underline {
   height: 4px;
   width:100%;
-  background-color: #f76c2f;
+  background-color: #A34A23;
   margin-top: 10px;
 }
 .section {
@@ -197,6 +197,27 @@ body {
 .btnUpdate:hover {
   background-color: #f76c2f;
   border-color: #ad4e20;
+}
+.table {
+  border-radius: 12px !important;
+}
+.table>:not(caption)>*>* {
+  border-bottom-width: 0 !important;
+}
+.table>thead {
+  box-sizing: border-box;
+  background: #FFF8F4;
+  border: 2px solid #ad4e20;
+}
+.buttonTanya {
+  width: 200px;
+  background-color: #ad4e20;
+  border-color: #ad4e20;
+}
+.buttonTanya:hover {
+  width: 200px;
+  background-color: #b4663f;
+  border-color: #b45a2d;
 }
 footer {
   background-color: rgb(108, 51, 51);
