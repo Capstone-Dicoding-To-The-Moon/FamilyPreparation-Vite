@@ -3,6 +3,8 @@ import Home from './pages/Home';
 import Artikel from './pages/Artikel';
 import About from './pages/About';
 import ForumDiskusi from './pages/ForumDiskusi';
+import ForumDetail from './pages/ForumDetail';
+import Diskusi from './pages/Diskusi';
 import Profile from './pages/Profile';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavbarComponent from './components/NavbarComponent';
@@ -17,6 +19,8 @@ function App() {
         <Route path="/artikel" element={<Artikel />} />
         <Route path='/about' element={<About />}/>
         <Route path="/forumDiskusi" element={<ForumDiskusi />} />
+        <Route path="/forumDetail" element={<ForumDetail />} />
+        <Route path="/diskusi" element={<Diskusi />} />
         <Route path='/profile' element={<Profile />}/>
         <Route path="*" element={<h1>404 Not Found</h1>} />
       </Routes>
